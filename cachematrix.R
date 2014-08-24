@@ -1,7 +1,7 @@
 ## These functions can be used for the "smart" matrix manipulations  
 ## including inverse value caching
 
-## Constructs  matrix object 
+## Constructs a matrix object 
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
